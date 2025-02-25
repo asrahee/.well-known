@@ -1,9 +1,15 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.lotte.lottedutyfree",
-    "sha256_cert_fingerprints":
-    ["2C:05:C6:B1:44:69:75:B6:1C:5D:E8:D8:FA:3B:59:6E:A0:57:DA:8F:CA:8E:18:88:1F:69:DA:52:51:23:4E:B0"]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.lotte.lottedutyfree",
+      "sha256_cert_fingerprints": [
+        "2C:05:C6:B1:44:69:75:B6:1C:5D:E8:D8:FA:3B:59:6E:A0:57:DA:8F:CA:8E:18:88:1F:69:DA:52:51:23:4E:B0"
+      ]
+    }
   }
-}]
+]
