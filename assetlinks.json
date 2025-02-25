@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.lotte.lottedutyfree",
+    "sha256_cert_fingerprints":
+    ["F2:ED:C4:7D:99:85:FE:68:97:48:E4:11:61:DB:08:4E:35:40:54:CE:3C:79:2D:B6:CB:F8:FC:65:15:81:B2:E9"]
+  }
+}]
