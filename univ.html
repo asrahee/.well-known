@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Page</title>
+</head>
+<body>
+  <h1>universal_Link</h1>
+  <p>universal_Link  ~~  롯데 면세점 </p>
+  <a href="https://zesty-madeleine-99b414.netlify.app"> universal_Link 앱으로 보내기     _ </a></br></br>
+
+  <a href="https://zesty-madeleine-99b414.netlify.app/universal_link"> universal_Link 앱으로 보내기 universal_link </a></br></br>
+
+  <a href="https://zesty-madeleine-99b414.netlify.app/universal_link/test"> universal_Link 앱으로 보내기 universal_link/test </a>
+
+  <button id="openApp">앱으로 이동</button>
+
+  <script>
+    document.getElementById("openApp").addEventListener("click", function() {
+        var now = new Date().getTime();
+        var appScheme = "lottedfs://"; 
+        var appStoreURL = "itms-apps://itunes.apple.com/app/id492083651"; 
+
+    
+        window.location.href = appScheme;
+
+        setTimeout(function() {
+            var elapsed = new Date().getTime() - now;
+            if (elapsed < 2000) {
+                window.location.href = appStoreURL;
+            }
+        }, 1500);
+    });
+  </script>
+
+</body>
+</html>
